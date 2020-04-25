@@ -2,13 +2,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
 }
 
 body {
 	background-color: #000;
+}
+h1 {
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 100px;
 }
 
 .main {
@@ -17,7 +20,7 @@ body {
 	align-content: center;
 	justify-content: center;
 	display: flex;
-	
+	border-color: #000;
 
 }
 
@@ -26,10 +29,10 @@ body {
 	height: 200px;
 	width: 200px;
 	background-color: #fed330;
-	border-color: #fed330;
 	margin: auto;
 	margin-top: 250px;
 	border-radius: 50%;
+	border-color: #000;
 }
 
 .eye {
@@ -40,12 +43,13 @@ body {
 	background-color: #000;
 	top: 50%;
 	left: 52%;
-	margin-top: -85px;
+	margin-top: -70px;
 }
 
 .mouth {
 	position: absolute;
 	background-color: #000;
+	border-color: #000;
 	clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
 	height: 100%;
 	width: 100%;
